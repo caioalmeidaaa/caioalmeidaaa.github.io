@@ -43,7 +43,7 @@
       `;
 
       // Enviar para o seu backend (ex: webhook no n8n)
-      fetch('https://almeidacaio.app.n8n.cloud/webhook-test/tiktok-oauth-callback', {
+      fetch('https://almeidacaio.app.n8n.cloud/webhook/tiktok-oauth-callback', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ code, state })
